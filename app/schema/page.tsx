@@ -385,7 +385,7 @@ mongoose.connection.on('reconnected', () => {
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Monitoring</h3>
                   <ul className="space-y-1 text-sm text-gray-600">
-                    <li>• <strong>Query Performance:</strong> Monitor slow queries (>100ms)</li>
+                    <li>• <strong>Query Performance:</strong> Monitor slow queries (&gt;100ms)</li>
                     <li>• <strong>Index Usage:</strong> Track index hit ratios</li>
                     <li>• <strong>Connection Pool:</strong> Monitor connection usage</li>
                     <li>• <strong>Storage:</strong> Track collection growth</li>

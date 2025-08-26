@@ -559,9 +559,9 @@ interface SwapStats {
                   <ul className="space-y-1 text-sm text-gray-600">
                     <li>• <strong>feeRate:</strong> Must be between 0 and 1 (0% to 100%)</li>
                     <li>• <strong>slippage:</strong> Must be between 0 and 1 (0% to 100%)</li>
-                    <li>• <strong>fromToken ≠ toToken:</strong> Cannot swap the same token</li>
-                    <li>• <strong>amounts > 0:</strong> Token amounts must be positive</li>
-                    <li>• <strong>prices > 0:</strong> Token prices must be positive</li>
+                    <li>• <strong>fromToken &ne; toToken:</strong> Cannot swap the same token</li>
+                    <li>• <strong>amounts &gt; 0:</strong> Token amounts must be positive</li>
+                    <li>• <strong>prices &gt; 0:</strong> Token prices must be positive</li>
                   </ul>
                 </div>
               </div>
